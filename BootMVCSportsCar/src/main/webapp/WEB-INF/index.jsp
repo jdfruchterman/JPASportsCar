@@ -22,41 +22,43 @@
 <title>Jimmy's Sports Car Database Home Page</title>
 </head>
 <body>
-	<div class="background-image"></div>
-	<div class="container">
-		<div class="navigation">
-			<nav class="nav nav-tabs">
-				<a class="nav-item nav-link active" href="/">Home </a> <a
-					class="nav-item nav-link" href="createCar.do" method="GET">Add
-					Car to Database </a>
-			</nav>
+	<div class="background-image">
+		<div class="header">
+			<div class="banner">Jimmy's Sports Car Database</div>
+			<div class="navigation">
+				<nav class="nav nav-tabs">
+					<a class="nav-item nav-link active" href="/">Home </a> <a
+						class="nav-item nav-link" href="createCar.do" method="GET">Add
+						Car to Database </a>
+				</nav>
+			</div>
 		</div>
+		<div class="container">
 
+			<!-- 		<div class="container"> -->
+			<h4>
+				<a href="createCar.do" method="GET">Add a car to the database</a>
+			</h4>
 
-		<!-- 		<div class="container"> -->
-		<h4>
-			<a href="createCar.do" method="GET">Add a car to the database</a>
-		</h4>
+			<h4>Find a car by ID</h4>
+			<form action="getCar.do" method="GET">
+				Car ID: <input type="text" name="id" /> <input type="submit"
+					value="Find Car" class="btn btn-primary" />
+			</form>
 
-		<h4>Find a car by ID</h4>
-		<form action="getCar.do" method="GET">
-			Car ID: <input type="text" name="id" /> <input type="submit"
-				value="Find Car" class="btn btn-primary" />
-		</form>
+			<h4>Edit a car in the database</h4>
+			<form action="editCar.do" method="GET">
+				Car ID: <input type="text" name="id" /> <input type="submit"
+					value="Edit Car" class="btn btn-primary" />
+			</form>
 
-		<h4>Edit a car in the database</h4>
-		<form action="editCar.do" method="GET">
-			Car ID: <input type="text" name="id" /> <input type="submit"
-				value="Edit Car" class="btn btn-primary" />
-		</form>
-
-		<h4>Delete a car from the database</h4>
-		<form action="deleteCar.do" method="GET">
-			Car ID: <input type="text" name="id" /> <input type="submit"
-				value="Delete Car" class="btn btn-primary" />
-		</form>
+			<h4>Delete a car from the database</h4>
+			<form action="deleteCar.do" method="GET">
+				Car ID: <input type="text" name="id" /> <input type="submit"
+					value="Delete Car" class="btn btn-primary" />
+			</form>
+		</div>
 	</div>
-	<!-- 	</div> -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
