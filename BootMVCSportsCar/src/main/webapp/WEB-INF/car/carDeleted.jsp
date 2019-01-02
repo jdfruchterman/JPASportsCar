@@ -22,8 +22,21 @@
 <title>Jimmy's Sports Car Database - Car Deleted</title>
 </head>
 <body>
-	<h4>Car deleted</h4>
-	<a href="/"><div>Home</div></a>
+	<div class="background-image">
+		<div class="header">
+			<div class="banner">Jimmy's Sports Car Database</div>
+			<div class="navigation">
+				<nav class="nav nav-tabs">
+					<a class="nav-item nav-link active" href="/">Home </a> <a
+						class="nav-item nav-link" href="createCar.do" method="GET">Add
+						Car to Database </a>
+				</nav>
+			</div>
+		</div>
+		<div class="container">
+			<h4>Car deleted</h4>
+		</div>
+	</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -36,6 +49,5 @@
 		src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
 		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
 		crossorigin="anonymous"></script>
-
 </body>
 </html>

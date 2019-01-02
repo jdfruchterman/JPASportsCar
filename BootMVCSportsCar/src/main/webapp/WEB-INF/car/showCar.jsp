@@ -22,25 +22,34 @@
 <title>Jimmy's Sports Car Database - Find a car in the database</title>
 </head>
 <body>
-	<div>
-		<h4>${car.year}${car.make} ${car.model}</h4>
-		<h4>Car Id: ${car.id }</h4>
-		<h5>Specifications:</h5>
-		<p>
-		<div>
-			<ul>
-				<li>Trim: ${car.trim}</li>
-				<li>Doors: ${car.doors }</li>
-				<li>Engine: ${car.engine }</li>
-				<li>Weight: ${car.weight }</li>
-				<li>Horsepower: ${car.horsepower }</li>
-				<li>Torque(ft/lbs): ${car.torque }</li>
-				<li>0 to 60: ${car.zerotosixty }</li>
-			</ul>
-
+	<div class="background-image">
+		<div class="header">
+			<div class="banner">Jimmy's Sports Car Database</div>
+			<div class="navigation">
+				<nav class="nav nav-tabs">
+					<a class="nav-item nav-link active" href="/">Home </a> <a
+						class="nav-item nav-link" href="createCar.do" method="GET">Add
+						Car to Database </a>
+				</nav>
+			</div>
 		</div>
-		<a href="/"><div>Home</div></a>
-		</p>
+		<div class="container">
+			<h4>${car.year} ${car.make} ${car.model}</h4>
+			<h5>Car Id: ${car.id }</h5>
+			<h5>Specifications:</h5>
+			<p>
+			<div>
+				<ul>
+					<li>Trim: ${car.trim}</li>
+					<li>Doors: ${car.doors }</li>
+					<li>Engine: ${car.engine }</li>
+					<li>Weight: ${car.weight }</li>
+					<li>Horsepower: ${car.horsepower }</li>
+					<li>Torque(ft/lbs): ${car.torque }</li>
+					<li>0 to 60: ${car.zerotosixty }</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

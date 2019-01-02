@@ -22,59 +22,73 @@
 <title>Jimmy's Sports Car Database - Edit Car</title>
 </head>
 <body>
-	<form action="editCar.do" method="POST">
-		<div class="form-group">
-			<label id="id">Year:</label> <input type="hidden" id="id" name="id"
-				value=${car.id }></input>
+	<div class="background-image">
+		<div class="header">
+			<div class="banner">Jimmy's Sports Car Database</div>
+			<div class="navigation">
+				<nav class="nav nav-tabs">
+					<a class="nav-item nav-link active" href="/">Home </a> <a
+						class="nav-item nav-link" href="createCar.do" method="GET">Add
+						Car to Database </a>
+				</nav>
+			</div>
 		</div>
-		<div class="form-group">
-			<label id="make">Make:</label> <input type="text" id="make"
-				name="make" value=${car.make }></input>
-		</div>
-		<div class="form-group">
-			<label id="model">Model:</label> <input type="text" id="model"
-				name="model" value=${car.model }></input>
-		</div>
-		<div class="form-group">
-			<label id="year">Year:</label> <input type="number" id="year"
-				name="year" value=${car.year } required min="1901"></input>
-		</div>
-		<div class="form-group">
-			<label id="trim">Trim:</label> <input type="text" id="trim"
-				name="trim" value=${car.trim }></input>
-		</div>
-		<div class="form-group">
-			<label id="doors">Doors:</label> <input type="number" id="doors"
-				name="doors" value=${car.doors } required min="1" required max="10"></input>
-		</div>
-		<div class="form-group">
-			<label id="engine">Engine:</label> <input type="text" id="engine"
-				name="engine" value=${car.engine }></input>
-		</div>
-		<div class="form-group">
-			<label id="weight">Weight:</label> <input type="number" id="weight"
-				name="weight" value=${car.weight } required min="1" required
-				max="10000"></input>
-		</div>
-		<div class="form-group">
-			<label id="horsepower">Horsepower:</label> <input type="number"
-				id="horsepower" name="horsepower" value=${car.horsepower } required
-				min="1" required max="10000"></input>
-		</div>
-		<div class="form-group">
-			<label id="torque">Torque:</label> <input type="number" id="torque"
-				name="torque" value=${car.torque } required min="1" required
-				max="10000"></input>
-		</div>
-		<div class="form-group">
-			<label id="0to60">Zero to sixty:</label> <input type="text"
-				id="0to60" name="0to60" value="${car.zerotosixty }"></input>
-		</div>
+		<div class="container">
+			<form action="editCar.do" method="POST">
+				<div class="form-group">
+					<label id="id">Year:</label> <input type="hidden" id="id" name="id"
+						value=${car.id }></input>
+				</div>
+				<div class="form-group">
+					<label id="make">Make:</label> <input type="text" id="make"
+						name="make" value=${car.make }></input>
+				</div>
+				<div class="form-group">
+					<label id="model">Model:</label> <input type="text" id="model"
+						name="model" value=${car.model }></input>
+				</div>
+				<div class="form-group">
+					<label id="year">Year:</label> <input type="number" id="year"
+						name="year" value=${car.year } required min="1901"></input>
+				</div>
+				<div class="form-group">
+					<label id="trim">Trim:</label> <input type="text" id="trim"
+						name="trim" value=${car.trim }></input>
+				</div>
+				<div class="form-group">
+					<label id="doors">Doors:</label> <input type="number" id="doors"
+						name="doors" value=${car.doors } required min="1" required
+						max="10"></input>
+				</div>
+				<div class="form-group">
+					<label id="engine">Engine:</label> <input type="text" id="engine"
+						name="engine" value=${car.engine }></input>
+				</div>
+				<div class="form-group">
+					<label id="weight">Weight:</label> <input type="number" id="weight"
+						name="weight" value=${car.weight } required min="1" required
+						max="10000"></input>
+				</div>
+				<div class="form-group">
+					<label id="horsepower">Horsepower:</label> <input type="number"
+						id="horsepower" name="horsepower" value=${car.horsepower }
+						required min="1" required max="10000"></input>
+				</div>
+				<div class="form-group">
+					<label id="torque">Torque:</label> <input type="number" id="torque"
+						name="torque" value=${car.torque } required min="1" required
+						max="10000"></input>
+				</div>
+				<div class="form-group">
+					<label id="0to60">Zero to sixty:</label> <input type="text"
+						id="0to60" name="0to60" value="${car.zerotosixty }"></input>
+				</div>
 
-		<input type="submit" class="btn btn-primary" value="Submit" />
+				<input type="submit" class="btn btn-primary" value="Submit" />
 
-	</form>
-	<a href="/"><div>Home</div></a>
+			</form>
+		</div>
+	</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

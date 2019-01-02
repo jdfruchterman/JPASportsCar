@@ -18,9 +18,14 @@ SpringMVC with SpringBoot, MySQL, CRUD, HTML, CSS, JSP, Bootstrap.
 ## Feature sets to add
 
 - Improved styling!
+  -> Make background image float
+  -> Resize things so that they look good when in smaller window
+  -> Better use of Bootstrap
+  -> Change background image
 - Keyword Search
 - Top 10 lists, for example by horsepower, 0-60, etc.
 - Search by model
+- Nested object
 - More tables - engine, make, etc.
 
 ## Stumbling points
