@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.background-image {
+	position: relative;
+	height: 100vh;
+	min-height: 100px;
+	max-height: 150px;
+	background-size: cover;
+	background-image:
+		url('http://1.bp.blogspot.com/-d0Qg7GbQIxw/VNdtoX1Fv6I/AAAAAAAAJyQ/1EebQb1Vkw8/s1600/20150207CP.jpg');
+}
+
+.navigation {
+	position: absolute;
+	bottom: 0;
+	background-color: transparent;
+}
+
+.nav-item nav-link active {
+	background-color: transparent;
+}
+
+.container {
+	padding-top: 25px;
+}
+
+.button {
+	margin: 10px;
+}

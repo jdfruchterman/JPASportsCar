@@ -1,0 +1,40 @@
+package com.skilldistillery.bootmvc.data;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.transaction.Transactional;
+
+import org.springframework.stereotype.Service;
+
+import com.skilldistillery.jpasportscar.entities.Car;
+
+@Transactional
+@Service
+public class CarDAOImpl implements CarDAO {
+	@PersistenceContext
+	private EntityManager em;
+	
+	@Override
+	public Car create(Car car) {
+		
+		return null;
+	}
+
+	@Override
+	public Car update(int id, Car car) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Car find(int id) {
+		return em.find(Car.class, id);
+	}
+
+	@Override
+	public boolean destroy(int id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}

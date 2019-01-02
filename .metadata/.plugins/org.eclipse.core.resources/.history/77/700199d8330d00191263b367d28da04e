@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Car</title>
+</head>
+<body>
+	<div>
+		<h5>${car.year}${car.make}${car.model}</h5>
+		<p>
+		<div>
+		<ul>
+			<li>${car.trim}</li>
+			<li>${car.doors }</li>
+		
+		</ul>
+		
+		
+		</div>
+		</p>
+	</div>
+</body>
+</html>
