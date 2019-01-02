@@ -3035,3 +3035,48 @@ java.lang.NoSuchMethodError: org.springframework.beans.factory.support.BeanDefin
 
 !ENTRY org.eclipse.jface.text 2 0 2019-01-01 18:22:53.858
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:10:39.150
+!MESSAGE Preparing classpath changed notification BootMVCSportsCar
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:10:39.155
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:10:39.156
+!MESSAGE executing callback sts4.classpath.LpbjFkJw BootMVCSportsCar true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:10:39.303
+!MESSAGE executing callback sts4.classpath.LpbjFkJw SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:10:44.232
+!MESSAGE Preparing classpath changed notification BootMVCSportsCar
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:10:44.233
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:10:44.249
+!MESSAGE project entry /JPASportsCar
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:10:44.254
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:10:44.255
+!MESSAGE executing callback sts4.classpath.LpbjFkJw BootMVCSportsCar false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:10:44.278
+!MESSAGE executing callback sts4.classpath.LpbjFkJw SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-01 22:10:44.585
+!MESSAGE 
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:16:17.774
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LpbjFkJw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:16:17.777
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LpbjFkJw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:16:17.777
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-01 22:16:17.778
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LpbjFkJw => OK

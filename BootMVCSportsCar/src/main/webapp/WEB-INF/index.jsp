@@ -3,7 +3,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,45 +22,41 @@
 <title>Jimmy's Sports Car Database Home Page</title>
 </head>
 <body>
-<div class="background-image">
-<div class="navigation">
-<nav class="nav nav-tabs">
-	<a class="nav-item nav-link active" href="/" >Home
-	</a>
-	<a class="nav-item nav-link" href="WEB-INF/addCar.jsp">Add Car to Database
-	</a>
-</nav>
-</div>
-</div>
-
+	<div class="background-image"></div>
 	<div class="container">
-	<h4>Find a car by ID</h4>
-	<form action="getCar.do" method="GET">
-		Car ID: <input type="text" name="id" /> <input type="submit"
-			value="Find Car" class="btn btn-primary" />
-	</form>
-
-	<h4><a href="createCar.do" method="GET">Add a car to the database</a></h4>
-<%-- 	<form action="createCar.do" method="GET">
-	<div class="form-group">
-	</div> 
-	<input type="submit" class="btn btn-primary" value="Submit" />
-	</form> --%>
+		<div class="navigation">
+			<nav class="nav nav-tabs">
+				<a class="nav-item nav-link active" href="/">Home </a> <a
+					class="nav-item nav-link" href="createCar.do" method="GET">Add
+					Car to Database </a>
+			</nav>
+		</div>
 
 
-	<h4>Edit a car in the database</h4>
-	<form action="editCar.do" method="GET">
-		Car ID: <input type="text" name="id" /> <input type="submit"
-			value="Edit Car" class="btn btn-primary" />
-	</form>
+		<!-- 		<div class="container"> -->
+		<h4>
+			<a href="createCar.do" method="GET">Add a car to the database</a>
+		</h4>
 
-	<h4>Delete a car from the database</h4>
-	<form action="deleteCar.do" method="GET">
-		Car ID: <input type="text" name="id" /> <input type="submit"
-			value="Delete Car" class="btn btn-primary" />
-	</form>
+		<h4>Find a car by ID</h4>
+		<form action="getCar.do" method="GET">
+			Car ID: <input type="text" name="id" /> <input type="submit"
+				value="Find Car" class="btn btn-primary" />
+		</form>
+
+		<h4>Edit a car in the database</h4>
+		<form action="editCar.do" method="GET">
+			Car ID: <input type="text" name="id" /> <input type="submit"
+				value="Edit Car" class="btn btn-primary" />
+		</form>
+
+		<h4>Delete a car from the database</h4>
+		<form action="deleteCar.do" method="GET">
+			Car ID: <input type="text" name="id" /> <input type="submit"
+				value="Delete Car" class="btn btn-primary" />
+		</form>
 	</div>
-
+	<!-- 	</div> -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
