@@ -4,7 +4,6 @@ INDEX VERSION 1.131+/Users/jimmyfruchterman/SD/Java/JPASportsCar/.metadata/.plug
 3484197182.index
 2633288526.index
 2954713794.index
-1822087573.index
 3433638840.index
 634192596.index
 172437677.index

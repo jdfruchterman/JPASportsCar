@@ -102,7 +102,7 @@ public class CarController {
 		return "WEB-INF/car/addCar.jsp";
 	}
 	
-	@RequestMapping(path="/")
+	@RequestMapping(path= {"home.do", "/"})
 	public String index() {
 	  return "WEB-INF/index.jsp";
 	  // return "index"; // if using a ViewResolver.

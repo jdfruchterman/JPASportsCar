@@ -26,7 +26,7 @@
 			<div class="banner">Jimmy's Sports Car Database</div>
 			<div class="navigation">
 				<nav class="nav nav-tabs">
-					<a class="nav-item nav-link active" href="/">Home </a> <a
+					<a class="nav-item nav-link active" href="home.do">Home </a> <a
 						class="nav-item nav-link" href="createCar.do" method="GET">Add
 						Car to Database </a>
 				</nav>

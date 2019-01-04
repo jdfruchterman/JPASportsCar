@@ -1,6 +1,7 @@
 # SpringBootCRUD Solo Project
 
-Link to Project on AWS
+Link to Project on AWS:
+http://13.58.55.186:8080/BootMVCSportsCar/home.do
 
 Created by Jimmy Fruchterman
 
